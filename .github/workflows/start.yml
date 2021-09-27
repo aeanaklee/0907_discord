@@ -27,7 +27,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: Githyb Actions
-          DISCORD_AVATAR:
+          DISCORD_AVATAR: https://github.githubassets.com/images/modules/logos_page/Octocat.png
         uses: Ilshidur/action-discord@master
         with:
           args: '안녕 GitHub Actions: {{ GITHUB_EVENT_NAME }}'
